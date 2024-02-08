@@ -19,7 +19,6 @@ private:
 	void Shot();
 	// —£’E
 	void Leave();
-
 private:
 	static void(Enemy::* FuncTable[])();
 	Phase phase_ = Phase::kApproach;
